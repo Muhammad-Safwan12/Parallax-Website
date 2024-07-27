@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinations - Travese</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet"> <!-- AOS CSS -->
+    <style>
+        .card:hover .card-overlay {
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50">
+
+    <!-- Header -->
+    <header class="bg-gradient-to-r bg-gray-800 shadow-lg">
+        <div class="container mx-auto px-4 py-6 flex justify-between items-center">
+            <div class="text-2xl font-bold text-white">Travese</div>
+            <nav class="space-x-4">
+                <a href="./index.html" target="_blank"
+                    class="font-bold text-white hover:text-gray-200 hover:border-b-2 hover:border-gray-200 pb-1">Home</a>
+                <a href="#" class="font-bold text-white hover:text-gray-200 hover:border-b-2 hover:border-gray-200 pb-1">About</a>
+                <a href="#"
+                    class="font-bold text-blue-900 hover:text-gray-200 hover:border-b-2 hover:border-gray-200 pb-1">Destinations</a>
+                <a href="./contact.html"
+                    class="font-bold text-white hover:text-gray-200 hover:border-b-2 hover:border-gray-200 pb-1">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-cover bg-center h-96 relative" style="background-image: url('./bg3.avif');">
+        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+            <h1 class="relative hover:text-blue-950 hover:font-extrabold text-3xl sm:text-3xl md:text-6xl lg:text-7xl font-extrabold border-b-4 hover:border-transparent after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[4px] after:bg-black after:w-0 hover:after:w-full after:transition-all after:duration-500"
+            data-aos="fade-up" data-aos-duration="1000">
+            Explore Our Top Destinations
+        </h1>
+        
+        </div>
+    </section>
+
+  <!-- Destinations Section -->
+  <section class="container mx-auto px-4 py-12">
+    <div class="text-center mb-12">
+        <h2 class="text-4xl font-extrabold text-gray-800">Popular Destinations</h2>
+        <p class="mt-4 text-gray-600">Discover the most popular destinations around the world with Travese. Your
+            adventure awaits!</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+        <!-- Destination Card -->
+        <div
+            class="bg-white shadow-lg rounded-lg overflow-hidden card transform transition-transform hover:scale-105">
+            <div class="relative">
+                <img src="./Paris.avif" alt="Paris" class="w-full h-48 object-cover">
+                <div
+                    class="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-75 card-overlay transition-opacity duration-300">
+                </div>
+                <h3 class="absolute bottom-4 left-4 text-white text-2xl font-semibold">Paris</h3>
+            </div>
+            <div class="p-6">
+                <p class="text-gray-700">The city of love, known for its art, culture, and iconic landmarks like the
+                    Eiffel Tower.</p>
+            </div>
+        </div>
+        <!-- Destination Card -->
+        <div
+            class="bg-white shadow-lg rounded-lg overflow-hidden card transform transition-transform hover:scale-105">
+            <div class="relative">
+                <img src="./newyork.jpeg" alt="New York" class="w-full h-48 object-cover">
+                <div
+                    class="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-75 card-overlay transition-opacity duration-300">
+                </div>
+                <h3 class="absolute bottom-4 left-4 text-white text-2xl font-semibold">New York</h3>
+            </div>
+            <div class="p-6">
+                <p class="text-gray-700">The city that never sleeps, famous for its skyline, Broadway shows, and
+                    diverse culture.</p>
+            </div>
+        </div>
+        <!-- Destination Card -->
+        <div
+            class="bg-white shadow-lg rounded-lg overflow-hidden card transform transition-transform hover:scale-105">
+            <div class="relative">
+                <img src="./Tokyo.avif" alt="Tokyo" class="w-full h-48 object-cover">
+                <div
+                    class="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-75 card-overlay transition-opacity duration-300">
+                </div>
+                <h3 class="absolute bottom-4 left-4 text-white text-2xl font-semibold">Tokyo</h3>
+            </div>
+            <div class="p-6">
+                <p class="text-gray-700">A bustling metropolis blending tradition and modernity, known for its food,
+                    fashion, and technology.</p>
+            </div>
+        </div>
+        <!-- Destination Card -->
+        <div
+            class="bg-white shadow-lg rounded-lg overflow-hidden card transform transition-transform hover:scale-105">
+            <div class="relative">
+                <img src="./london.webp" alt="London" class="w-full h-48 object-cover">
+                <div
+                    class="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-75 card-overlay transition-opacity duration-300">
+                </div>
+                <h3 class="absolute bottom-4 left-4 text-white text-2xl font-semibold">London</h3>
+            </div>
+            <div class="p-6">
+                <p class="text-gray-700">A historic city with a modern edge, home to landmarks like the Big Ben and
+                    Buckingham Palace.</p>
+            </div>
+        </div>
+        <!-- Destination Card -->
+        <div
+            class="bg-white shadow-lg rounded-lg overflow-hidden card transform transition-transform hover:scale-105">
+            <div class="relative">
+                <img src="./sydney.jpeg" alt="Sydney" class="w-full h-48 object-cover">
+                <div
+                    class="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-75 card-overlay transition-opacity duration-300">
+                </div>
+                <h3 class="absolute bottom-4 left-4 text-white text-2xl font-semibold">Sydney</h3>
+            </div>
+            <div class="p-6">
+                <p class="text-gray-700">Known for its stunning harbor, the Sydney Opera House, and beautiful
+                    beaches.</p>
+            </div>
+        </div>
+        <!-- Destination Card -->
+        <div
+            class="bg-white shadow-lg rounded-lg overflow-hidden card transform transition-transform hover:scale-105">
+            <div class="relative">
+                <img src="./rome.jpeg" alt="Rome" class="w-full h-48 object-cover">
+                <div
+                    class="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-75 card-overlay transition-opacity duration-300">
+                </div>
+                <h3 class="absolute bottom-4 left-4 text-white text-2xl font-semibold">Rome</h3>
+            </div>
+            <div class="p-6">
+                <p class="text-gray-700">A city rich in history and culture, with ancient ruins and iconic landmarks
+                    like the Colosseum.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="container mx-auto text-center">
+            <div class="space-x-8">
+                <span class="mb-4">&copy; 2024 Travese. All rights reserved.</span>
+            </div>
+            <nav class="space-x-4 my-5">
+                <a href="#" class="text-gray-400 hover:text-gray-200">Privacy Policy</a>
+                <a href="#" class="text-gray-400 hover:text-gray-200">Terms of Service</a>
+                <a href="./contact.html" class="text-gray-400 hover:text-gray-200">Contact Us</a>
+            </nav>
+            <div class="mt-6">
+                <a href="./index.html" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                    Back to Home
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script> <!-- AOS JS -->
+    <script>
+        AOS.init(); // Initialize AOS
+    </script>
+</body>
+
+</html>
